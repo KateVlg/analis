@@ -1,0 +1,61 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-size: 34px;
+    line-height: 42px;
+    margin: 20px auto;
+  }
+
+.table {
+    max-width: 125vw;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #d4d4d4;
+     
+  }
+   
+  tr:nth-child(even) {
+    background: #d4d4d4;
+  }
+   
+  th, td {
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+   
+  th {
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+/* .lnk{
+    font-size: 32px;
+    line-height: 34px;
+} */
+
+.summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}

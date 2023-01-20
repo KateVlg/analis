@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<title>Парсинг новостей</title>
+</head>
+<body class="page">
+<h1 class="header">Волга-медиа - Новости Волгограда и Волгоградской области</h1>
+
+<script src="./CsvToTable_1.js"></script>
+<script>
+	var csv = new CsvToTable_1({
+		csvFile: 'news_docs.csv'
+	});
+	csv.run();
+</script>
+</body>
+</html>
